@@ -1663,9 +1663,10 @@
           "buildMultiTargeting/xunit.core.targets": {}
         }
       },
-      "xunit.extensibility.core/2.9.3": {
+      "xunit.extensibility.core/2.5.3": {
         "type": "package",
         "dependencies": {
+          "NETStandard.Library": "1.6.1",
           "xunit.abstractions": "2.0.3"
         },
         "compile": {
@@ -1706,16 +1707,6 @@
         },
         "build": {
           "build/net6.0/xunit.runner.visualstudio.props": {}
-        }
-      },
-      "SchlyapaCore/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/SchlyapaCore.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SchlyapaCore.dll": {}
         }
       }
     }
@@ -5445,10 +5436,10 @@
         "xunit.core.nuspec"
       ]
     },
-    "xunit.extensibility.core/2.9.3": {
-      "sha512": "kf3si0YTn2a8J8eZNb+zFpwfoyvIrQ7ivNk5ZYA5yuYk1bEtMe4DxJ2CF/qsRgmEnDr7MnW1mxylBaHTZ4qErA==",
+    "xunit.extensibility.core/2.5.3": {
+      "sha512": "IjAQlPeZWXP89pl1EuOG9991GH1qgAL0rQfkmX2UV+PDenbYb7oBnQopL9ujE6YaXxgaQazp7lFjsDyyxD6Mtw==",
       "type": "package",
-      "path": "xunit.extensibility.core/2.9.3",
+      "path": "xunit.extensibility.core/2.5.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5461,7 +5452,7 @@
         "lib/net452/xunit.runner.utility.net452.dll",
         "lib/netstandard1.1/xunit.core.dll",
         "lib/netstandard1.1/xunit.core.xml",
-        "xunit.extensibility.core.2.9.3.nupkg.sha512",
+        "xunit.extensibility.core.2.5.3.nupkg.sha512",
         "xunit.extensibility.core.nuspec"
       ]
     },
@@ -5506,20 +5497,13 @@
         "xunit.runner.visualstudio.2.5.3.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
-    },
-    "SchlyapaCore/1.0.0": {
-      "type": "project",
-      "path": "../SchlyapaCore/SchlyapaCore.csproj",
-      "msbuildProject": "../SchlyapaCore/SchlyapaCore.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.NET.Test.Sdk >= 17.8.0",
-      "SchlyapaCore >= 1.0.0",
       "coverlet.collector >= 6.0.0",
       "xunit >= 2.5.3",
-      "xunit.extensibility.core >= 2.9.3",
       "xunit.runner.visualstudio >= 2.5.3"
     ]
   },
@@ -5530,11 +5514,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nikon\\source\\repos\\Schlyapa\\SchlyapaCoreTests\\SchlyapaCoreTests.csproj",
+      "projectUniqueName": "C:\\Users\\nikon\\source\\repos\\Schlyapa\\Schlyapa\\SchlyapaCoreTests\\SchlyapaCoreTests.csproj",
       "projectName": "SchlyapaCoreTests",
-      "projectPath": "C:\\Users\\nikon\\source\\repos\\Schlyapa\\SchlyapaCoreTests\\SchlyapaCoreTests.csproj",
+      "projectPath": "C:\\Users\\nikon\\source\\repos\\Schlyapa\\Schlyapa\\SchlyapaCoreTests\\SchlyapaCoreTests.csproj",
       "packagesPath": "C:\\Users\\nikon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nikon\\source\\repos\\Schlyapa\\SchlyapaCoreTests\\obj\\",
+      "outputPath": "C:\\Users\\nikon\\source\\repos\\Schlyapa\\Schlyapa\\SchlyapaCoreTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5554,11 +5538,7 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {
-            "C:\\Users\\nikon\\source\\repos\\Schlyapa\\SchlyapaCore\\SchlyapaCore.csproj": {
-              "projectPath": "C:\\Users\\nikon\\source\\repos\\Schlyapa\\SchlyapaCore\\SchlyapaCore.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -5589,10 +5569,6 @@
             "target": "Package",
             "version": "[2.5.3, )"
           },
-          "xunit.extensibility.core": {
-            "target": "Package",
-            "version": "[2.9.3, )"
-          },
           "xunit.runner.visualstudio": {
             "target": "Package",
             "version": "[2.5.3, )"
@@ -5617,27 +5593,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.318/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Версия обнаруженного пакета нарушает ограничение зависимости: xunit.core 2.5.3 требуется xunit.extensibility.core (= 2.5.3), но в результате разрешения получена версия xunit.extensibility.core 2.9.3.",
-      "libraryId": "xunit.extensibility.core",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Версия обнаруженного пакета нарушает ограничение зависимости: xunit.extensibility.execution 2.5.3 требуется xunit.extensibility.core (= 2.5.3), но в результате разрешения получена версия xunit.extensibility.core 2.9.3.",
-      "libraryId": "xunit.extensibility.core",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  }
 }

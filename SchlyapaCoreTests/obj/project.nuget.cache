@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7bPmAqkoW3Q=",
+  "dgSpecHash": "+3HUAiZ6ee8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\nikon\\source\\repos\\Schlyapa\\SchlyapaCoreTests\\SchlyapaCoreTests.csproj",
+  "projectFilePath": "C:\\Users\\nikon\\source\\repos\\Schlyapa\\Schlyapa\\SchlyapaCoreTests\\SchlyapaCoreTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nikon\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\nikon\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",
@@ -90,34 +90,9 @@
     "C:\\Users\\nikon\\.nuget\\packages\\xunit.analyzers\\1.4.0\\xunit.analyzers.1.4.0.nupkg.sha512",
     "C:\\Users\\nikon\\.nuget\\packages\\xunit.assert\\2.5.3\\xunit.assert.2.5.3.nupkg.sha512",
     "C:\\Users\\nikon\\.nuget\\packages\\xunit.core\\2.5.3\\xunit.core.2.5.3.nupkg.sha512",
-    "C:\\Users\\nikon\\.nuget\\packages\\xunit.extensibility.core\\2.9.3\\xunit.extensibility.core.2.9.3.nupkg.sha512",
+    "C:\\Users\\nikon\\.nuget\\packages\\xunit.extensibility.core\\2.5.3\\xunit.extensibility.core.2.5.3.nupkg.sha512",
     "C:\\Users\\nikon\\.nuget\\packages\\xunit.extensibility.execution\\2.5.3\\xunit.extensibility.execution.2.5.3.nupkg.sha512",
     "C:\\Users\\nikon\\.nuget\\packages\\xunit.runner.visualstudio\\2.5.3\\xunit.runner.visualstudio.2.5.3.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "message": "Версия обнаруженного пакета нарушает ограничение зависимости: xunit.core 2.5.3 требуется xunit.extensibility.core (= 2.5.3), но в результате разрешения получена версия xunit.extensibility.core 2.9.3.",
-      "projectPath": "C:\\Users\\nikon\\source\\repos\\Schlyapa\\SchlyapaCoreTests\\SchlyapaCoreTests.csproj",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\nikon\\source\\repos\\Schlyapa\\SchlyapaCoreTests\\SchlyapaCoreTests.csproj",
-      "libraryId": "xunit.extensibility.core",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "message": "Версия обнаруженного пакета нарушает ограничение зависимости: xunit.extensibility.execution 2.5.3 требуется xunit.extensibility.core (= 2.5.3), но в результате разрешения получена версия xunit.extensibility.core 2.9.3.",
-      "projectPath": "C:\\Users\\nikon\\source\\repos\\Schlyapa\\SchlyapaCoreTests\\SchlyapaCoreTests.csproj",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\nikon\\source\\repos\\Schlyapa\\SchlyapaCoreTests\\SchlyapaCoreTests.csproj",
-      "libraryId": "xunit.extensibility.core",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }

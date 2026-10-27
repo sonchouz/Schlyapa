@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SchlyapaCore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+719bb0c1a63009225a9306bb266c22708044df55")]
 [assembly: System.Reflection.AssemblyProductAttribute("SchlyapaCore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SchlyapaCore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
