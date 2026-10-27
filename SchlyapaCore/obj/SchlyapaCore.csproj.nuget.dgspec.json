@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nikon\\source\\repos\\Schlyapa\\SchlyapaCore\\SchlyapaCore.csproj": {}
+    "C:\\Users\\nikon\\source\\repos\\Schlyapa\\Schlyapa\\SchlyapaCore\\SchlyapaCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nikon\\source\\repos\\Schlyapa\\SchlyapaCore\\SchlyapaCore.csproj": {
+    "C:\\Users\\nikon\\source\\repos\\Schlyapa\\Schlyapa\\SchlyapaCore\\SchlyapaCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nikon\\source\\repos\\Schlyapa\\SchlyapaCore\\SchlyapaCore.csproj",
+        "projectUniqueName": "C:\\Users\\nikon\\source\\repos\\Schlyapa\\Schlyapa\\SchlyapaCore\\SchlyapaCore.csproj",
         "projectName": "SchlyapaCore",
-        "projectPath": "C:\\Users\\nikon\\source\\repos\\Schlyapa\\SchlyapaCore\\SchlyapaCore.csproj",
+        "projectPath": "C:\\Users\\nikon\\source\\repos\\Schlyapa\\Schlyapa\\SchlyapaCore\\SchlyapaCore.csproj",
         "packagesPath": "C:\\Users\\nikon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nikon\\source\\repos\\Schlyapa\\SchlyapaCore\\obj\\",
+        "outputPath": "C:\\Users\\nikon\\source\\repos\\Schlyapa\\Schlyapa\\SchlyapaCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
