@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace SchlyapaCore
@@ -15,6 +16,13 @@ namespace SchlyapaCore
         public TodoItem(string title)
         {
             Title = title?.Trim() ?? throw new ArgumentNullException(nameof(title));
+            IsDone = false;
+        }
+        [JsonConstructor]
+        public TodoItem(Guid id, string title, bool isDone) { 
+            Id = id;
+            Title = title?.Trim() ?? throw new ArgumentNullException(nameof(title));
+            IsDone = isDone;
         }
         public void MarkDone() => IsDone = true;
         public void MarkUndone() => IsDone = false;
